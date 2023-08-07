@@ -24,15 +24,24 @@ This project aims to create a web platform where users can share and discover fo
 
 ## Screenshots
 
-![Homepage](screenshots/homepage.png)
-![Recipe Detail](screenshots/recipe-detail.png)
-![About Us](screenshots/about-us.png)
-![Contact Us](screenshots/contact-us.png)
-![Submit Recipe](screenshots/send-recipe.png)
+![Homepage](./Images/screenshots/homepage.png)
+![Recipe Detail](./Images/screenshots/recipe-detail.png)
+![About Us](./Images/screenshots/about-us.png)
+![Contact Us](./Images/screenshots/contact-us.png)
+![Submit Recipe](./Images/screenshots/send-recipe.png)
+
+## Notes
+- Please note that the Contact Us and Send Recipe pages in this project are currently static and consist only of visual content. The contact form and recipe submission functionality have not been implemented in the current version of the project. You can explore these pages for design and layout purposes, but interactive features are not available at this time.
+
+- We are continuously working on improving and adding new features to the platform, and updates may be released in the future to enhance the functionality of these pages.
+
+- If you have any questions or feedback, please feel free to contact us at: info@example.com
+
+
 
 ## Contact
 
-If you have any questions or feedback, please email us at: info@example.com
+If you have any questions or feedback, please email us at: musaocak1@gmail.com
 
 ---
 
