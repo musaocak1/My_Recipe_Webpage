@@ -1,0 +1,75 @@
+/* about.css */
+
+/* About sayfasının tasarımını düzenle */
+
+.about-content {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Ekip üyeleri için tasarım */
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover; /* Resmi düzgün bir şekilde yerleştirmek için */
+}
+
+.team-member-info {
+    flex: 1;
+}
+
+.team-member-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Yazı rengini değiştirdim */
+}
+
+.team-member-title {
+    font-size: 18px;
+    color: #777; /* Yazı rengini değiştirdim */
+    margin-bottom: 10px;
+}
+
+.team-member-bio {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Medya sorguları ile responsive tasarım */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-member img {
+        margin: 0 auto 20px auto;
+    }
+
+    .team-member-info {
+        text-align: center;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/sendrecipe.css">
+    <title>Musa's Flavour Book - Send Recipe</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left-side">
+            <a href="index.html" class="nav-button">Homepage</a>
+            <a href="about.html" class="nav-button">About Us</a>
+            <a href="contact.html" class="nav-button">Contact Us</a>
+            <a href="send-recipe.html" class="nav-button">Send Recipe</a>
+        </div>
+        <div class="header-middle">
+            <input placeholder="Search Recipes..." type="text" name="search-textinput" class="search-textinput">
+            <button class="search-icon-button">
+                <img class="magnifying-glass-icon" src="../icons/magnifying-glass.svg" alt="magnifying glass">
+            </button>
+        </div>
+        <div class="header-right-side">
+            <img class="header-logo" src="../Images/headerlogo.png" alt="logo">
+        </div>
+    </header>
+
+    <main class="send-recipe-form-container">
+        <h1>Send Your Recipe</h1>
+        <form id="send-recipe-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="recipe-title">Recipe Title:</label>
+            <input type="text" id="recipe-title" name="recipe-title" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="6" required></textarea>
+
+            <label for="image-upload">Upload Image:</label>
+            <input type="file" id="image-upload" name="image-upload" accept="image/*" required>
+
+            <button type="submit" class="submit-button">Send Recipe</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Footer içeriği buraya gelecek -->
+    </footer>
+</body>
+
+</html>

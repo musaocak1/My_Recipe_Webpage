@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/contact.css"> <!-- Contact Us sayfasının CSS dosyası -->
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left-side">
+            <a href="index.html" class="nav-button">Homepage</a>
+            <a href="about.html" class="nav-button">About Us</a>
+            <a href="contact.html" class="nav-button">Contact Us</a>
+            <a href="send-recipe.html" class="nav-button">Send Recipe</a>
+        </div>
+        <div class="header-middle">
+            <input placeholder="Search Recipes..." type="text" name="search-textinput" class="search-textinput">
+            <button class="search-icon-button">
+                <img class="magnifying-glass-icon" src="../icons/magnifying-glass.svg" alt="magnifying glass">
+            </button>
+        </div>
+        <div class="header-right-side">
+            <img class="header-logo" src="../Images/headerlogo.png" alt="logo">
+        </div>
+    </header>
+    <main class="contact-content">
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Job Opportunity">Job Opportunity</option>
+                    <option value="Complaint">Complaint</option>
+                    <!-- Diğer konu seçenekleri burada -->
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us on Social Media</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <img src="../icons/facebook.png" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="../icons/square-x-twitter.png" alt="Twitter">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="../icons/square-instagram.png" alt="Instagram">
+                </a>
+                <!-- Diğer sosyal medya ikonları burada eklenebilir -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact info</h3>
+                <p>For any inquiries, please visit our <a href="contact.html">Contact Us</a> page.</p>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Musa's Flavour Book. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

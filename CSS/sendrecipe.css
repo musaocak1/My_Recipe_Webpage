@@ -1,0 +1,54 @@
+/* Send Recipe sayfası stilleri */
+.send-recipe-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.send-recipe-form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#send-recipe-form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 30px; /* veya istediğiniz değeri ayarlayabilirsiniz */
+    display: block; /* Etiketlerin alt alta görünmesini sağlar */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 5px;
+}
+
+.submit-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #f57c00;
+}
+
+.submit-button:active {
+    background-color: #e65100;
+}

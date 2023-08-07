@@ -1,0 +1,118 @@
+/* recipe.css */
+
+/* Tarif sayfasının tasarımını düzenle */
+
+.recipe-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-image img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 4px solid #F5F3F1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.recipe-details h2 {
+    font-size: 28px;
+    margin: 20px 0 10px 0;
+}
+
+.recipe-details ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.recipe-details li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-details p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.homepage-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    border: 2px solid #ff9800;
+    border-radius: 4px;
+    background-color: white;
+    color: #ff9800;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ff9800;
+    color: white;
+}
+.step {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Medya sorguları ile responsive tasarım */
+@media (max-width: 768px) {
+    .recipe-details ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .recipe-details li {
+        margin-left: 15px;
+    }
+    
+    .recipe-details h1 {
+        font-size: 28px;
+    }
+
+    .recipe-details h2 {
+        font-size: 24px;
+    }
+
+    .recipe-details li {
+        font-size: 18px;
+    }
+
+    .recipe-details p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-details h1 {
+        font-size: 24px;
+    }
+
+    .recipe-details h2 {
+        font-size: 20px;
+    }
+
+    .recipe-details li {
+        font-size: 16px;
+    }
+
+    .recipe-details p {
+        font-size: 16px;
+    }
+}
