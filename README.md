@@ -20,7 +20,6 @@ This project aims to create a web platform where users can share and discover fo
 
 - HTML
 - CSS
-- JavaScript
 
 ## Screenshots
 
